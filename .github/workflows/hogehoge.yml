@@ -1,0 +1,9 @@
+name: GitHub Actions Demo2
+
+on: [pull_request]
+
+jobs:
+  echo_PR:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "pull request catch!!"
